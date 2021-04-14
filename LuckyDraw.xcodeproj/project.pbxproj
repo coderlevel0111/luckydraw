@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6707AAECD832C358B4E86FE /* Pods_LuckyDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBA27259323E8A1CFF9C66E /* Pods_LuckyDraw.framework */; };
+		C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56C2625FA6700098303 /* AppDelegate.swift */; };
+		C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56E2625FA6700098303 /* SceneDelegate.swift */; };
+		C183E5712625FA6700098303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E5702625FA6700098303 /* ViewController.swift */; };
+		C183E5742625FA6700098303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C183E5722625FA6700098303 /* Main.storyboard */; };
+		C183E5762625FA6800098303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C183E5752625FA6800098303 /* Assets.xcassets */; };
+		C183E5792625FA6800098303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C183E5772625FA6800098303 /* LaunchScreen.storyboard */; };
+		C183E58D262745BE00098303 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = C183E58C262745BE00098303 /* test.csv */; };
+		C183E5912627488900098303 /* test2.csv in Resources */ = {isa = PBXBuildFile; fileRef = C183E58F2627488900098303 /* test2.csv */; };
+		C183E5922627488900098303 /* test3.tsv in Resources */ = {isa = PBXBuildFile; fileRef = C183E5902627488900098303 /* test3.tsv */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyDraw.debug.xcconfig"; path = "Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		C183E5692625FA6700098303 /* LuckyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C183E56C2625FA6700098303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C183E56E2625FA6700098303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C183E5702625FA6700098303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C183E5732625FA6700098303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C183E5752625FA6800098303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C183E5782625FA6800098303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C183E57A2625FA6800098303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C183E58C262745BE00098303 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
+		C183E58F2627488900098303 /* test2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.csv; sourceTree = "<group>"; };
+		C183E5902627488900098303 /* test3.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.tsv; sourceTree = "<group>"; };
+		CCBA27259323E8A1CFF9C66E /* Pods_LuckyDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E739614230B9A40E388D7DBA /* Pods-LuckyDraw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyDraw.release.xcconfig"; path = "Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C183E5662625FA6700098303 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6707AAECD832C358B4E86FE /* Pods_LuckyDraw.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362A6CDDDEF9E3F36D295466 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */,
+				E739614230B9A40E388D7DBA /* Pods-LuckyDraw.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C183E5602625FA6700098303 = {
+			isa = PBXGroup;
+			children = (
+				C183E56B2625FA6700098303 /* LuckyDraw */,
+				C183E56A2625FA6700098303 /* Products */,
+				362A6CDDDEF9E3F36D295466 /* Pods */,
+				E5E2CD6EF0328026E7F3B49A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C183E56A2625FA6700098303 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C183E5692625FA6700098303 /* LuckyDraw.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C183E56B2625FA6700098303 /* LuckyDraw */ = {
+			isa = PBXGroup;
+			children = (
+				C183E58B262745AB00098303 /* Test */,
+				C183E56C2625FA6700098303 /* AppDelegate.swift */,
+				C183E56E2625FA6700098303 /* SceneDelegate.swift */,
+				C183E5702625FA6700098303 /* ViewController.swift */,
+				C183E5722625FA6700098303 /* Main.storyboard */,
+				C183E5752625FA6800098303 /* Assets.xcassets */,
+				C183E5772625FA6800098303 /* LaunchScreen.storyboard */,
+				C183E57A2625FA6800098303 /* Info.plist */,
+			);
+			path = LuckyDraw;
+			sourceTree = "<group>";
+		};
+		C183E58B262745AB00098303 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				C183E58F2627488900098303 /* test2.csv */,
+				C183E5902627488900098303 /* test3.tsv */,
+				C183E58C262745BE00098303 /* test.csv */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		E5E2CD6EF0328026E7F3B49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCBA27259323E8A1CFF9C66E /* Pods_LuckyDraw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C183E5682625FA6700098303 /* LuckyDraw */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C183E57D2625FA6800098303 /* Build configuration list for PBXNativeTarget "LuckyDraw" */;
+			buildPhases = (
+				F21E59278AC4ED526E218D7E /* [CP] Check Pods Manifest.lock */,
+				C183E5652625FA6700098303 /* Sources */,
+				C183E5662625FA6700098303 /* Frameworks */,
+				C183E5672625FA6700098303 /* Resources */,
+				420540E623DA0A7A6FC32C3D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LuckyDraw;
+			productName = LuckyDraw;
+			productReference = C183E5692625FA6700098303 /* LuckyDraw.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C183E5612625FA6700098303 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					C183E5682625FA6700098303 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = C183E5642625FA6700098303 /* Build configuration list for PBXProject "LuckyDraw" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C183E5602625FA6700098303;
+			productRefGroup = C183E56A2625FA6700098303 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C183E5682625FA6700098303 /* LuckyDraw */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C183E5672625FA6700098303 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C183E5912627488900098303 /* test2.csv in Resources */,
+				C183E5792625FA6800098303 /* LaunchScreen.storyboard in Resources */,
+				C183E5762625FA6800098303 /* Assets.xcassets in Resources */,
+				C183E58D262745BE00098303 /* test.csv in Resources */,
+				C183E5742625FA6700098303 /* Main.storyboard in Resources */,
+				C183E5922627488900098303 /* test3.tsv in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		420540E623DA0A7A6FC32C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21E59278AC4ED526E218D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LuckyDraw-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C183E5652625FA6700098303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C183E5712625FA6700098303 /* ViewController.swift in Sources */,
+				C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */,
+				C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C183E5722625FA6700098303 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C183E5732625FA6700098303 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C183E5772625FA6800098303 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C183E5782625FA6800098303 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C183E57B2625FA6800098303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C183E57C2625FA6800098303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C183E57E2625FA6800098303 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LuckyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C183E57F2625FA6800098303 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E739614230B9A40E388D7DBA /* Pods-LuckyDraw.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyDraw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LuckyDraw;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C183E5642625FA6700098303 /* Build configuration list for PBXProject "LuckyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C183E57B2625FA6800098303 /* Debug */,
+				C183E57C2625FA6800098303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C183E57D2625FA6800098303 /* Build configuration list for PBXNativeTarget "LuckyDraw" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C183E57E2625FA6800098303 /* Debug */,
+				C183E57F2625FA6800098303 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C183E5612625FA6700098303 /* Project object */;
+}
