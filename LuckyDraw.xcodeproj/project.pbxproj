@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		A6707AAECD832C358B4E86FE /* Pods_LuckyDraw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCBA27259323E8A1CFF9C66E /* Pods_LuckyDraw.framework */; };
+		C1648163262AA82300C78554 /* shared.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C1648160262AA82300C78554 /* shared.xcconfig */; };
+		C1648164262AA82300C78554 /* debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C1648161262AA82300C78554 /* debug.xcconfig */; };
+		C1648165262AA82300C78554 /* release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = C1648162262AA82300C78554 /* release.xcconfig */; };
+		C1648181262AAB4800C78554 /* Party.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1648180262AAB4800C78554 /* Party.swift */; };
+		C1648184262ACF1500C78554 /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1648183262ACF1500C78554 /* Round.swift */; };
+		C1648187262B041A00C78554 /* Attendee.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1648186262B041A00C78554 /* Attendee.swift */; };
+		C164818D262B1E6C00C78554 /* BasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164818C262B1E6C00C78554 /* BasicViewController.swift */; };
+		C1648191262B1E8B00C78554 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1648190262B1E8B00C78554 /* HomeViewController.swift */; };
+		C1648199262B1FBE00C78554 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1648198262B1FBE00C78554 /* NavigationViewController.swift */; };
+		C164819D262B208500C78554 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C164819C262B208500C78554 /* RoundButton.swift */; };
+		C16481A2262B229200C78554 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481A1262B229200C78554 /* Extensions.swift */; };
+		C16481A7262B379D00C78554 /* RoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481A6262B379D00C78554 /* RoundViewController.swift */; };
+		C16481AB262B3CCD00C78554 /* RoundContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481AA262B3CCD00C78554 /* RoundContainerViewController.swift */; };
 		C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56C2625FA6700098303 /* AppDelegate.swift */; };
 		C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56E2625FA6700098303 /* SceneDelegate.swift */; };
 		C183E5712625FA6700098303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E5702625FA6700098303 /* ViewController.swift */; };
@@ -21,6 +34,19 @@
 
 /* Begin PBXFileReference section */
 		932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyDraw.debug.xcconfig"; path = "Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw.debug.xcconfig"; sourceTree = "<group>"; };
+		C1648160262AA82300C78554 /* shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = shared.xcconfig; sourceTree = "<group>"; };
+		C1648161262AA82300C78554 /* debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = debug.xcconfig; sourceTree = "<group>"; };
+		C1648162262AA82300C78554 /* release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = release.xcconfig; sourceTree = "<group>"; };
+		C1648180262AAB4800C78554 /* Party.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Party.swift; sourceTree = "<group>"; };
+		C1648183262ACF1500C78554 /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		C1648186262B041A00C78554 /* Attendee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attendee.swift; sourceTree = "<group>"; };
+		C164818C262B1E6C00C78554 /* BasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicViewController.swift; sourceTree = "<group>"; };
+		C1648190262B1E8B00C78554 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C1648198262B1FBE00C78554 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		C164819C262B208500C78554 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		C16481A1262B229200C78554 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C16481A6262B379D00C78554 /* RoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewController.swift; sourceTree = "<group>"; };
+		C16481AA262B3CCD00C78554 /* RoundContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundContainerViewController.swift; sourceTree = "<group>"; };
 		C183E5692625FA6700098303 /* LuckyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C183E56C2625FA6700098303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C183E56E2625FA6700098303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +83,110 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C164815A262AA7C900C78554 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C183E5722625FA6700098303 /* Main.storyboard */,
+				C183E5752625FA6800098303 /* Assets.xcassets */,
+				C183E5772625FA6800098303 /* LaunchScreen.storyboard */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C164815C262AA7EA00C78554 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C183E56C2625FA6700098303 /* AppDelegate.swift */,
+				C183E56E2625FA6700098303 /* SceneDelegate.swift */,
+				C183E5702625FA6700098303 /* ViewController.swift */,
+				C183E57A2625FA6800098303 /* Info.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C164815F262AA82300C78554 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C1648160262AA82300C78554 /* shared.xcconfig */,
+				C1648161262AA82300C78554 /* debug.xcconfig */,
+				C1648162262AA82300C78554 /* release.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		C164817E262AAB1100C78554 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C16481A5262B378700C78554 /* Round */,
+				C164818A262B1E5500C78554 /* Shared */,
+				C1648189262B1E4700C78554 /* Home */,
+				C164817F262AAB1800C78554 /* Model */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C164817F262AAB1800C78554 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C1648180262AAB4800C78554 /* Party.swift */,
+				C1648183262ACF1500C78554 /* Round.swift */,
+				C1648186262B041A00C78554 /* Attendee.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C1648189262B1E4700C78554 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C1648190262B1E8B00C78554 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C164818A262B1E5500C78554 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C16481A0262B226700C78554 /* Extension */,
+				C164819B262B207900C78554 /* Button */,
+				C164818B262B1E5E00C78554 /* Basic */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C164818B262B1E5E00C78554 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				C164818C262B1E6C00C78554 /* BasicViewController.swift */,
+				C1648198262B1FBE00C78554 /* NavigationViewController.swift */,
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
+		C164819B262B207900C78554 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				C164819C262B208500C78554 /* RoundButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		C16481A0262B226700C78554 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C16481A1262B229200C78554 /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C16481A5262B378700C78554 /* Round */ = {
+			isa = PBXGroup;
+			children = (
+				C16481A6262B379D00C78554 /* RoundViewController.swift */,
+				C16481AA262B3CCD00C78554 /* RoundContainerViewController.swift */,
+			);
+			path = Round;
+			sourceTree = "<group>";
+		};
 		C183E5602625FA6700098303 = {
 			isa = PBXGroup;
 			children = (
@@ -78,14 +208,11 @@
 		C183E56B2625FA6700098303 /* LuckyDraw */ = {
 			isa = PBXGroup;
 			children = (
+				C164817E262AAB1100C78554 /* App */,
+				C164815F262AA82300C78554 /* Config */,
+				C164815C262AA7EA00C78554 /* Main */,
+				C164815A262AA7C900C78554 /* Assets */,
 				C183E58B262745AB00098303 /* Test */,
-				C183E56C2625FA6700098303 /* AppDelegate.swift */,
-				C183E56E2625FA6700098303 /* SceneDelegate.swift */,
-				C183E5702625FA6700098303 /* ViewController.swift */,
-				C183E5722625FA6700098303 /* Main.storyboard */,
-				C183E5752625FA6800098303 /* Assets.xcassets */,
-				C183E5772625FA6800098303 /* LaunchScreen.storyboard */,
-				C183E57A2625FA6800098303 /* Info.plist */,
 			);
 			path = LuckyDraw;
 			sourceTree = "<group>";
@@ -171,6 +298,9 @@
 				C183E5792625FA6800098303 /* LaunchScreen.storyboard in Resources */,
 				C183E5762625FA6800098303 /* Assets.xcassets in Resources */,
 				C183E58D262745BE00098303 /* test.csv in Resources */,
+				C1648164262AA82300C78554 /* debug.xcconfig in Resources */,
+				C1648163262AA82300C78554 /* shared.xcconfig in Resources */,
+				C1648165262AA82300C78554 /* release.xcconfig in Resources */,
 				C183E5742625FA6700098303 /* Main.storyboard in Resources */,
 				C183E5922627488900098303 /* test3.tsv in Resources */,
 			);
@@ -228,6 +358,16 @@
 				C183E5712625FA6700098303 /* ViewController.swift in Sources */,
 				C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */,
 				C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */,
+				C1648199262B1FBE00C78554 /* NavigationViewController.swift in Sources */,
+				C1648191262B1E8B00C78554 /* HomeViewController.swift in Sources */,
+				C1648187262B041A00C78554 /* Attendee.swift in Sources */,
+				C164819D262B208500C78554 /* RoundButton.swift in Sources */,
+				C1648184262ACF1500C78554 /* Round.swift in Sources */,
+				C1648181262AAB4800C78554 /* Party.swift in Sources */,
+				C16481AB262B3CCD00C78554 /* RoundContainerViewController.swift in Sources */,
+				C16481A2262B229200C78554 /* Extensions.swift in Sources */,
+				C164818D262B1E6C00C78554 /* BasicViewController.swift in Sources */,
+				C16481A7262B379D00C78554 /* RoundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +395,7 @@
 /* Begin XCBuildConfiguration section */
 		C183E57B2625FA6800098303 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1648161262AA82300C78554 /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -304,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -316,6 +457,7 @@
 		};
 		C183E57C2625FA6800098303 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1648161262AA82300C78554 /* debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -359,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -371,41 +513,35 @@
 		};
 		C183E57E2625FA6800098303 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */;
+			baseConfigurationReference = C1648161262AA82300C78554 /* debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LuckyDraw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.LuckyDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
 		C183E57F2625FA6800098303 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E739614230B9A40E388D7DBA /* Pods-LuckyDraw.release.xcconfig */;
+			baseConfigurationReference = C1648161262AA82300C78554 /* debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = LuckyDraw/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.LuckyDraw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
