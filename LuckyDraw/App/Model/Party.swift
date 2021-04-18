@@ -36,7 +36,7 @@ class PartyFactory {
                 RoundSession(prize: Prize(name: "Apple iPhone 12", count: 1)),
                 RoundSession(prize: Prize(name: "Apple iPhone 12", count: 3)),
                 RoundSession(prize: Prize(name: "Apple iPhone 12", count: 5)),
-                RoundSession(prize: Prize(name: "Apple iPhone 12", count: 7)),
+                RoundSession(prize: Prize(name: "Apple iPhone 12", count: 2)),
             ])
         ]
         

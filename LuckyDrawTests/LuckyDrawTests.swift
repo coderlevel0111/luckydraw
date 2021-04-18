@@ -21,7 +21,7 @@ class LuckyDrawTests: XCTestCase {
         let newAttendess = party.fetchCurrentAttendees()
         XCTAssertEqual(originalAttendees.count,
                        newAttendess.count + session1.prize.count + session2.prize.count)
-        
+        XCTAssertEqual(party.winners.count, session1.prize.count + session2.prize.count)
         party.winners.forEach { winner in
             if newAttendess.contains(winner) {
                 XCTFail("one people can only win one prize")
@@ -31,7 +31,7 @@ class LuckyDrawTests: XCTestCase {
 
     func test_luckydraw_finished_clear_all_winners() throws {
         let party = PartyFactory.createParty()
-        let originalAttendees = party.fetchCurrentAttendees()
+        let originalAttendees = party.attendees
         
         guard let round = party.rounds.first,
               let session = round.sessions.first else {
@@ -57,7 +57,7 @@ class LuckyDrawTests: XCTestCase {
     
     func test_luckydraw_finished_clear_one_session_winners() throws {
         let party = PartyFactory.createParty()
-        let originalAttendees = party.fetchCurrentAttendees()
+        let originalAttendees = party.attendees
         let session1 = party.rounds[0].sessions[0]
         let session2 = party.rounds[1].sessions[0]
         
@@ -72,6 +72,26 @@ class LuckyDrawTests: XCTestCase {
                        party.fetchCurrentAttendees().count + session2.prize.count)
         XCTAssertEqual(party.winners.count, session2.prize.count)
         XCTAssertEqual(session1.winners.count, 0)
+        party.winners.forEach { winner in
+            if party.fetchCurrentAttendees().contains(winner) {
+                XCTFail("one people can only win one prize")
+            }
+        }
+    }
+    
+    func test_luckydraw_finished_all_rounds() {
+        let party = PartyFactory.createParty()
+        let allSessions = party.rounds.flatMap { $0.sessions }
+        
+        allSessions.forEach {
+            $0.updateWinners(party.getRandomWinners(with: $0.prize.count))
+        }
+        
+        let allWinners = allSessions.reduce([]) { $0 + $1.winners }
+        let expectedWinnerCount = allSessions.reduce(0) { $0 + $1.prize.count }
+        
+        XCTAssertEqual(allWinners, party.winners)
+        XCTAssertEqual(allWinners.count, expectedWinnerCount)
         party.winners.forEach { winner in
             if party.fetchCurrentAttendees().contains(winner) {
                 XCTFail("one people can only win one prize")

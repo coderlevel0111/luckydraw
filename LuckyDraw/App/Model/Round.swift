@@ -13,7 +13,7 @@ class Round {
     }
     
     let sessions: [RoundSession]
-    var prize: [Prize] {
+    var prizes: [Prize] {
         return sessions.map{ $0.prize }
     }
     
