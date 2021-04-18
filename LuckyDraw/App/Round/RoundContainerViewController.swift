@@ -8,10 +8,15 @@ import UIKit
 class RoundContainerViewController: UIPageViewController {
 
     let round: Round
+    weak var luckyDrawDelegate: LuckyDrawDelegate? = nil
     private var currentIndex: Int = 0
     
     private lazy var roundVCs = {
-        round.sessions.map { RoundViewController(prize: $0.prize) }
+        round.sessions.map { item -> RoundViewController in
+            let vc = RoundViewController(session: item)
+            vc.luckyDrawDelegate = luckyDrawDelegate
+            return vc
+        }
     }()
     
     init(round: Round) {

@@ -21,16 +21,27 @@
 		C16481A2262B229200C78554 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481A1262B229200C78554 /* Extensions.swift */; };
 		C16481A7262B379D00C78554 /* RoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481A6262B379D00C78554 /* RoundViewController.swift */; };
 		C16481AB262B3CCD00C78554 /* RoundContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481AA262B3CCD00C78554 /* RoundContainerViewController.swift */; };
+		C16481AF262BD4CA00C78554 /* FlashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481AE262BD4CA00C78554 /* FlashView.swift */; };
+		C16481B8262BE68B00C78554 /* test_list.csv in Resources */ = {isa = PBXBuildFile; fileRef = C16481B7262BE68B00C78554 /* test_list.csv */; };
+		C16481C2262C19CF00C78554 /* LuckyDrawTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16481C1262C19CF00C78554 /* LuckyDrawTests.swift */; };
 		C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56C2625FA6700098303 /* AppDelegate.swift */; };
 		C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E56E2625FA6700098303 /* SceneDelegate.swift */; };
-		C183E5712625FA6700098303 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C183E5702625FA6700098303 /* ViewController.swift */; };
 		C183E5742625FA6700098303 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C183E5722625FA6700098303 /* Main.storyboard */; };
 		C183E5762625FA6800098303 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C183E5752625FA6800098303 /* Assets.xcassets */; };
 		C183E5792625FA6800098303 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C183E5772625FA6800098303 /* LaunchScreen.storyboard */; };
-		C183E58D262745BE00098303 /* test.csv in Resources */ = {isa = PBXBuildFile; fileRef = C183E58C262745BE00098303 /* test.csv */; };
 		C183E5912627488900098303 /* test2.csv in Resources */ = {isa = PBXBuildFile; fileRef = C183E58F2627488900098303 /* test2.csv */; };
 		C183E5922627488900098303 /* test3.tsv in Resources */ = {isa = PBXBuildFile; fileRef = C183E5902627488900098303 /* test3.tsv */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C16481C4262C19CF00C78554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C183E5612625FA6700098303 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C183E5682625FA6700098303;
+			remoteInfo = LuckyDraw;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		932CA0DD04AFB55FD6E8CFC8 /* Pods-LuckyDraw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LuckyDraw.debug.xcconfig"; path = "Target Support Files/Pods-LuckyDraw/Pods-LuckyDraw.debug.xcconfig"; sourceTree = "<group>"; };
@@ -47,15 +58,18 @@
 		C16481A1262B229200C78554 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C16481A6262B379D00C78554 /* RoundViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViewController.swift; sourceTree = "<group>"; };
 		C16481AA262B3CCD00C78554 /* RoundContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundContainerViewController.swift; sourceTree = "<group>"; };
+		C16481AE262BD4CA00C78554 /* FlashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashView.swift; sourceTree = "<group>"; };
+		C16481B7262BE68B00C78554 /* test_list.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test_list.csv; sourceTree = "<group>"; };
+		C16481BF262C19CF00C78554 /* LuckyDrawTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuckyDrawTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16481C1262C19CF00C78554 /* LuckyDrawTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuckyDrawTests.swift; sourceTree = "<group>"; };
+		C16481C3262C19CF00C78554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C183E5692625FA6700098303 /* LuckyDraw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LuckyDraw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C183E56C2625FA6700098303 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C183E56E2625FA6700098303 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C183E5702625FA6700098303 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C183E5732625FA6700098303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C183E5752625FA6800098303 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C183E5782625FA6800098303 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C183E57A2625FA6800098303 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C183E58C262745BE00098303 /* test.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test.csv; sourceTree = "<group>"; };
 		C183E58F2627488900098303 /* test2.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test2.csv; sourceTree = "<group>"; };
 		C183E5902627488900098303 /* test3.tsv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = test3.tsv; sourceTree = "<group>"; };
 		CCBA27259323E8A1CFF9C66E /* Pods_LuckyDraw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LuckyDraw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +77,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C16481BC262C19CF00C78554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C183E5662625FA6700098303 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -98,7 +119,6 @@
 			children = (
 				C183E56C2625FA6700098303 /* AppDelegate.swift */,
 				C183E56E2625FA6700098303 /* SceneDelegate.swift */,
-				C183E5702625FA6700098303 /* ViewController.swift */,
 				C183E57A2625FA6800098303 /* Info.plist */,
 			);
 			path = Main;
@@ -146,6 +166,7 @@
 		C164818A262B1E5500C78554 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				C16481AD262BD47A00C78554 /* FlashView */,
 				C16481A0262B226700C78554 /* Extension */,
 				C164819B262B207900C78554 /* Button */,
 				C164818B262B1E5E00C78554 /* Basic */,
@@ -187,10 +208,28 @@
 			path = Round;
 			sourceTree = "<group>";
 		};
+		C16481AD262BD47A00C78554 /* FlashView */ = {
+			isa = PBXGroup;
+			children = (
+				C16481AE262BD4CA00C78554 /* FlashView.swift */,
+			);
+			path = FlashView;
+			sourceTree = "<group>";
+		};
+		C16481C0262C19CF00C78554 /* LuckyDrawTests */ = {
+			isa = PBXGroup;
+			children = (
+				C16481C1262C19CF00C78554 /* LuckyDrawTests.swift */,
+				C16481C3262C19CF00C78554 /* Info.plist */,
+			);
+			path = LuckyDrawTests;
+			sourceTree = "<group>";
+		};
 		C183E5602625FA6700098303 = {
 			isa = PBXGroup;
 			children = (
 				C183E56B2625FA6700098303 /* LuckyDraw */,
+				C16481C0262C19CF00C78554 /* LuckyDrawTests */,
 				C183E56A2625FA6700098303 /* Products */,
 				362A6CDDDEF9E3F36D295466 /* Pods */,
 				E5E2CD6EF0328026E7F3B49A /* Frameworks */,
@@ -201,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				C183E5692625FA6700098303 /* LuckyDraw.app */,
+				C16481BF262C19CF00C78554 /* LuckyDrawTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,9 +260,9 @@
 		C183E58B262745AB00098303 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				C16481B7262BE68B00C78554 /* test_list.csv */,
 				C183E58F2627488900098303 /* test2.csv */,
 				C183E5902627488900098303 /* test3.tsv */,
-				C183E58C262745BE00098303 /* test.csv */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -238,6 +278,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C16481BE262C19CF00C78554 /* LuckyDrawTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C16481C6262C19CF00C78554 /* Build configuration list for PBXNativeTarget "LuckyDrawTests" */;
+			buildPhases = (
+				C16481BB262C19CF00C78554 /* Sources */,
+				C16481BC262C19CF00C78554 /* Frameworks */,
+				C16481BD262C19CF00C78554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C16481C5262C19CF00C78554 /* PBXTargetDependency */,
+			);
+			name = LuckyDrawTests;
+			productName = LuckyDrawTests;
+			productReference = C16481BF262C19CF00C78554 /* LuckyDrawTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		C183E5682625FA6700098303 /* LuckyDraw */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C183E57D2625FA6800098303 /* Build configuration list for PBXNativeTarget "LuckyDraw" */;
@@ -266,6 +324,10 @@
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
+					C16481BE262C19CF00C78554 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = C183E5682625FA6700098303;
+					};
 					C183E5682625FA6700098303 = {
 						CreatedOnToolsVersion = 12.4;
 					};
@@ -285,11 +347,19 @@
 			projectRoot = "";
 			targets = (
 				C183E5682625FA6700098303 /* LuckyDraw */,
+				C16481BE262C19CF00C78554 /* LuckyDrawTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C16481BD262C19CF00C78554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C183E5672625FA6700098303 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,10 +367,10 @@
 				C183E5912627488900098303 /* test2.csv in Resources */,
 				C183E5792625FA6800098303 /* LaunchScreen.storyboard in Resources */,
 				C183E5762625FA6800098303 /* Assets.xcassets in Resources */,
-				C183E58D262745BE00098303 /* test.csv in Resources */,
 				C1648164262AA82300C78554 /* debug.xcconfig in Resources */,
 				C1648163262AA82300C78554 /* shared.xcconfig in Resources */,
 				C1648165262AA82300C78554 /* release.xcconfig in Resources */,
+				C16481B8262BE68B00C78554 /* test_list.csv in Resources */,
 				C183E5742625FA6700098303 /* Main.storyboard in Resources */,
 				C183E5922627488900098303 /* test3.tsv in Resources */,
 			);
@@ -351,11 +421,18 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C16481BB262C19CF00C78554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16481C2262C19CF00C78554 /* LuckyDrawTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C183E5652625FA6700098303 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C183E5712625FA6700098303 /* ViewController.swift in Sources */,
 				C183E56D2625FA6700098303 /* AppDelegate.swift in Sources */,
 				C183E56F2625FA6700098303 /* SceneDelegate.swift in Sources */,
 				C1648199262B1FBE00C78554 /* NavigationViewController.swift in Sources */,
@@ -368,10 +445,19 @@
 				C16481A2262B229200C78554 /* Extensions.swift in Sources */,
 				C164818D262B1E6C00C78554 /* BasicViewController.swift in Sources */,
 				C16481A7262B379D00C78554 /* RoundViewController.swift in Sources */,
+				C16481AF262BD4CA00C78554 /* FlashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C16481C5262C19CF00C78554 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C183E5682625FA6700098303 /* LuckyDraw */;
+			targetProxy = C16481C4262C19CF00C78554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C183E5722625FA6700098303 /* Main.storyboard */ = {
@@ -393,6 +479,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		C16481C7262C19CF00C78554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyDrawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.digital.LuckyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyDraw.app/LuckyDraw";
+			};
+			name = Debug;
+		};
+		C16481C8262C19CF00C78554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LuckyDrawTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hsbc.digital.LuckyDrawTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LuckyDraw.app/LuckyDraw";
+			};
+			name = Release;
+		};
 		C183E57B2625FA6800098303 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1648161262AA82300C78554 /* debug.xcconfig */;
@@ -548,6 +674,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C16481C6262C19CF00C78554 /* Build configuration list for PBXNativeTarget "LuckyDrawTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C16481C7262C19CF00C78554 /* Debug */,
+				C16481C8262C19CF00C78554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C183E5642625FA6700098303 /* Build configuration list for PBXProject "LuckyDraw" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

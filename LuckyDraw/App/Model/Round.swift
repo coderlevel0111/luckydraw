@@ -26,10 +26,18 @@ class Round {
 
 class RoundSession {
     let prize: Prize
-    private var winners: [Attendee] = []
+    private(set) var winners: [Attendee] = []
     
     init(prize: Prize) {
         self.prize = prize
+    }
+    
+    func updateWinners(_ winners: [Attendee]) {
+        self.winners.append(contentsOf: winners)
+    }
+    
+    func clearWinners() {
+        winners.removeAll()
     }
 }
 

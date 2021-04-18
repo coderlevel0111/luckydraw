@@ -14,3 +14,15 @@ struct Attendee {
         self.staffID = staffID
     }
 }
+
+extension Attendee: Equatable {
+    static func == (lhs: Self, rhs: Self) -> Bool {
+        return lhs.staffID == rhs.staffID
+    }
+}
+
+extension Attendee: CustomDebugStringConvertible {
+    var debugDescription: String {
+        return "\(name) \(staffID)"
+    }
+}

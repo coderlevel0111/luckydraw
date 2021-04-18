@@ -155,6 +155,7 @@ extension HomeViewController {
     @objc private func onRoundButtonClicked(_ button: UIButton) {
         let round = party.rounds[button.tag]
         let vc = RoundContainerViewController(round: round)
+        vc.luckyDrawDelegate = party
         navigationController?.pushViewController(vc, animated: true)
     }
 }
