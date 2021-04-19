@@ -144,7 +144,7 @@ extension RoundViewController {
         prizeNameLabel.translatesAutoresizingMaskIntoConstraints = false
         prizeNameLabel.text = session.prize.name
         prizeNameLabel.textColor = UIColor.Customize.textBlack
-        prizeNameLabel.font = UIFont.PingFangSC.bold(size: 48)
+        prizeNameLabel.font = UIFont.PingFangSC.bold(size: 72)
         prizeStackView.addArrangedSubview(prizeNameLabel)
         
         prizeCountLabel = UILabel()
