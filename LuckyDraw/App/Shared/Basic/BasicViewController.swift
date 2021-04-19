@@ -9,7 +9,7 @@ class BasicViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor.Customize.viewBackground
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -19,5 +19,9 @@ class BasicViewController: UIViewController {
     
     override var preferredInterfaceOrientationForPresentation: UIInterfaceOrientation {
         .landscapeLeft
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
 }

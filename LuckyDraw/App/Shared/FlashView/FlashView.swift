@@ -157,7 +157,7 @@ extension FlashView {
     private func createLabel() -> UILabel {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.textColor = UIColor.Customize.textBlack
+        label.textColor = .white
         switch numberOfLabels {
         case 1:
             label.font = UIFont.PingFangSC.regular(size: 48)

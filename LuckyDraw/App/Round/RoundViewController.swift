@@ -143,14 +143,14 @@ extension RoundViewController {
         prizeNameLabel = UILabel()
         prizeNameLabel.translatesAutoresizingMaskIntoConstraints = false
         prizeNameLabel.text = session.prize.name
-        prizeNameLabel.textColor = UIColor.Customize.textBlack
+        prizeNameLabel.textColor = .white
         prizeNameLabel.font = UIFont.PingFangSC.bold(size: 72)
         prizeStackView.addArrangedSubview(prizeNameLabel)
         
         prizeCountLabel = UILabel()
         prizeCountLabel.translatesAutoresizingMaskIntoConstraints = false
         prizeCountLabel.text = session.prize.countDescription
-        prizeCountLabel.textColor = UIColor.Customize.textBlack
+        prizeCountLabel.textColor = .white
         prizeCountLabel.font = UIFont.PingFangSC.regular(size: 48)
         prizeStackView.addArrangedSubview(prizeCountLabel)
     }
@@ -190,13 +190,13 @@ extension RoundViewController {
         clearButton = UIButton(type: .custom)
         clearButton.translatesAutoresizingMaskIntoConstraints = false
         clearButton.setTitle("Clear", for: .normal)
-        clearButton.setTitleColor(UIColor.Customize.textBlack, for: .normal)
-        clearButton.setTitleColor(UIColor.Customize.textBlack, for: .selected)
-        clearButton.setTitleColor(UIColor.Customize.textBlack, for: .highlighted)
+        clearButton.setTitleColor(.white, for: .normal)
+        clearButton.setTitleColor(.white, for: .selected)
+        clearButton.setTitleColor(.white, for: .highlighted)
         clearButton.titleLabel?.font = UIFont.PingFangSC.regular(size: 24)
         clearButton.layer.cornerRadius = Const.clearButtonSize.height / 2.0
         clearButton.layer.borderWidth = 1
-        clearButton.layer.borderColor = UIColor.Customize.textBlack.cgColor
+        clearButton.layer.borderColor = UIColor.white.cgColor
         clearButton.addTarget(self, action: #selector(didClearButtonClicked), for: .touchUpInside)
         buttonView.addSubview(clearButton)
         

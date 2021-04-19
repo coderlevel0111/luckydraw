@@ -31,12 +31,16 @@ class RoundContainerViewController: UIPageViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = round.title
-        view.backgroundColor = .white
+        view.backgroundColor = UIColor.Customize.viewBackground
         if let firstVC = roundVCs.first {
             setViewControllers([firstVC], direction: .forward, animated: true, completion: nil)
         }
         setupPageIndicator()
         dataSource = self
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        .lightContent
     }
 }
 
@@ -44,7 +48,7 @@ extension RoundContainerViewController {
     private func setupPageIndicator() {
         let appearance = UIPageControl.appearance(whenContainedInInstancesOf: [UIPageViewController.self])
         appearance.pageIndicatorTintColor = UIColor.lightGray
-        appearance.currentPageIndicatorTintColor = UIColor.Customize.textBlack
+        appearance.currentPageIndicatorTintColor = .white
     }
 }
 

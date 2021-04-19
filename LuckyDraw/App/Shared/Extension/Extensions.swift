@@ -31,6 +31,10 @@ extension UIColor {
         static var textBlack: UIColor {
             return UIColor(named: "text_black") ?? UIColor()
         }
+        
+        static var viewBackground: UIColor {
+            return UIColor(named: "view_background") ?? UIColor()
+        }
     }
 }
 
